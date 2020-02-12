@@ -32,3 +32,4 @@ Code examples
 let userName = arrUsers.map(item => item.name);
 
 ```
+
