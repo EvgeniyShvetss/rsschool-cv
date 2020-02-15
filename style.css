@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-image: url(https://html5book.ru/wp-content/uploads/2016/09/background74.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+li, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.photo {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin: 50px;
+}
+
+
+.page {
+    display: flex;
+    
+}
+.page__left {
+    width: 30%;
+    background: #336666;
+    
+}
+.page__right {
+    width: 70%;
+    padding: 50px 0 100px 100px ;
+}
+
+.element {
+    background: red;
+    padding: 10px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+.name {
+    font-size: 30px;
+    text-align: center;
+}
+.greeting {
+    font-size: 26px;
+    text-align: center;
+}
+
+.contact > ul {
+    margin-top: 100px;
+}
+
+.skills {
+    margin-top: 40px;
+}
+
+.skils {
+    margin-top: 20px;
+}
+
+.example__code {
+    margin-top: 370px;
+}
+.code {
+    margin-top: 30px;
+}
